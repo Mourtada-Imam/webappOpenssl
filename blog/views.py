@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse  
+from .models import cert 
 # Create your views here.
 
 def home (request): 
@@ -28,3 +29,5 @@ def ope9(request):
 	return render(request,'blog/ope9.html')
 def ope10(request):
 	return render(request,'blog/ope10.html')	
+def form(request):
+	return render(request,'blog/form.html')

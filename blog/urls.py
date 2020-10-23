@@ -13,4 +13,5 @@ urlpatterns = [
     path('ope8/',views.ope8, name='ope8'),
     path('ope9/',views.ope9, name='ope9'),
     path('ope10/',views.ope10, name='ope10'),
+    path('form/',views.form, name='form'),
 ]

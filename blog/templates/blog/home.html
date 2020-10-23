@@ -1,5 +1,6 @@
 {% extends "blog/base.html" %}
 {%block content %}
+
 	<h1>OpenSSL</h1>
 	<p>OpenSSL est un programme utilisant les protocoles de chiffrement SSL (v2/v3)  et TLS (v1)</p>
 <p>Il est utilisé principalement pour :</p>
@@ -8,7 +9,9 @@
 <li>Calculer des sommes de fichiers.</li>
 <li>Chiffrer et déchiffrer des chaines de caractères/des fichiers.</li>
 <li>Effectuer des tests SSL/TLS entre un client et un serveur.</li>
- <br/>
+ <br/><hr>
+<a href="{% url 'form' %}">Générer un certificat </a> <br />
+<hr> 
  <a href="{% url 'ope2' %}">Afficher la version installée</a> <br />
  <a href="{% url 'ope' %}">Afficher les sous-commandes disponibles </a> <br />
   <a href="{% url 'ope3' %}">Tester les performances de son système </a> <br />
